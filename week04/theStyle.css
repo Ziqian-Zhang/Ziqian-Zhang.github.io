@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+div {
+    text-align: center;
+}
+
+details {
+    align-content: center;
+}
+
+details > summary {
+    color:white;
+}
+
+/*
+details > p {
+    color:white;
+}
+*/
+
+p {
+    color: white;
+}
+
+#shelf {
+    width: 200px;
+    justify-content: left;
+}
+
+#mortar {
+    width: 100px;
+    justify-content: right;
+}
+
+#corpse {
+    width: 300px;
+}
+
+#money{
+    width: 300px;
+}
