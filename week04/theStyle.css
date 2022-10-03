@@ -2,42 +2,88 @@ body {
     background-color: black;
 }
 
-div {
+.img_top {
     text-align: center;
+}
+
+.txt_top {
+    position: absolute;
+    top: 10px;
+    left: 100px;
 }
 
 details {
     align-content: center;
+    position:absolute;
+    top:600px;
+	left:300px;
 }
 
 details > summary {
     color:white;
 }
 
-/*
-details > p {
-    color:white;
-}
-*/
-
 p {
     color: white;
 }
 
+.para {
+    position: absolute;
+    left: 140px;
+}
+
 #shelf {
     width: 200px;
-    justify-content: left;
+    position: absolute;
+    left: 80px;
+    top: 500px;
 }
 
 #mortar {
     width: 100px;
-    justify-content: right;
+    position: absolute;
+    left: 580px;
+    top: 330px;
 }
 
 #corpse {
     width: 300px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
 }
 
-#money{
+#casualty {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 700px;
+    top: 370px;
+}
+
+#destroyed {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 700px;
+    top: 500px;
+}
+
+#money {
     width: 300px;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+}
+
+#budget {
+    color:white;
+    position: absolute;
+    left: 700px;
+    top: 745px;
+}
+
+.wireframe{
+    position: absolute;
+    top: 1000px;
 }
