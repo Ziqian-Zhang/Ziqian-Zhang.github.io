@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(247,202,201);
+}
+
+h1 {
+    background-color: rgba(145,168,208,0.3);
+    text-align: center;
+    padding: 2vw;
+}
+
+h3 {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    gap: 0.625%;
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+  
+a:link,
+a:visited,
+a:focus {
+    background: rgba(145,168,208,0.3);
+    padding: 1vw;
+}
+  
+a:hover {
+    background: rgb(145,168,208);
+}
+  
+a:active {
+    background: rgb(250, 150, 150);
+    color: white;
+}
