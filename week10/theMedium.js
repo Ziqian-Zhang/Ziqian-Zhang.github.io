@@ -24,10 +24,14 @@ music.addEventListener("ended",autoNext); // After playing the current song, aut
 
 // song playlist
 let songs = [
-	
+	{
+		mp3:'Hyouryu.mp3',
+		name:'Hyouryu - THE SxPLAY',
+		pic:'hyouryu.jpeg',
+	},
 	{
 		mp3:'SEVENTEEN-Rock-with-you.mp3',
-		name:'Rock with you',
+		name:'Rock with you - SEVENTEEN',
 		pic:'Rock-with-you-album.jpeg',
 	},
 	{
@@ -73,6 +77,7 @@ function previousSong() {
         index=songs.length-1;
     }
     changeMusic(index);
+	playButton.click();
 }
 
 function nextSong() {
@@ -83,10 +88,12 @@ function nextSong() {
     changeMusic(index);
 	playButton.style.display='';
 	pauseButton.style.display='none';
+	playButton.click();
 }
 
 function autoNext(){
     nextButton.click();
+	playButton.click();
 }
 
 // Set the time display format

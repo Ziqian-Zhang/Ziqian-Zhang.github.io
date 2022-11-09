@@ -19,7 +19,7 @@ body {
 	margin-top: 5px;
 }
 #songList li:hover{
-	color: #8c0202;
+	color: #3776b9;
 }
 
 .musicBox {
@@ -36,7 +36,7 @@ body {
 	padding: 2px 5px;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #f04848;
+	border-color: #488ef0;
 	width: 1050px;
 	height: 100px;
 	border-radius: 10px;
@@ -117,10 +117,10 @@ body {
 	width: 0px;
 	position: absolute;
 	height: 5px;
-	left: 468px;
-	top: 634px;
+	left: 467px;
+	top: 638px;
 	cursor: pointer;
-	background-color: #ff0000;
+	background-color: #4292e3;
 }
 
 .voiceEmp {
