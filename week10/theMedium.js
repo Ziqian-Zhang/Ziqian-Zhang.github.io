@@ -1,4 +1,4 @@
-let music
+let music;
 if(window.HTMLAudioElement){
 	music = document.querySelector('#music');
 }
@@ -101,7 +101,7 @@ function timeFormat(time){
 	let minutes = parseInt(time/60);
 	let seconds = parseInt(time%60);
     if(minutes<10){minutes = "0"+minutes;}
-    if(seconds<10){seconds = "0"+seconds;}	
+    if(seconds<10){seconds = "0"+seconds;}
 	return minutes+':'+seconds;
 }
 // time display
