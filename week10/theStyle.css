@@ -10,6 +10,7 @@ body {
 	margin: auto;
 }
 #songList{
+	font-family: 'Monaco';
 	font-size: 18px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -22,15 +23,15 @@ body {
 }
 
 .musicBox {
-	font: 9px 'Lucida Sans Unicode', 'Trebuchet MS', Arial, Helvetica;
+	font: 9px 'Monaco';
 	background-color: #595959;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	-webkit-box-shadow: 10px 10px 25px #ccc;
-	-moz-box-shadow: 10px 10px 25px #ccc;
-	box-shadow: 10px 10px 25px #ccc;
+	-webkit-box-shadow: 10px 10px 25px rgb(204,204,204);
+	-moz-box-shadow: 10px 10px 25px rgb(204,204,204);
+	box-shadow: 10px 10px 25px rgb(204,204,204);
 	opacity: 0.9;
 	padding: 2px 5px;
 	border-width: 1px;

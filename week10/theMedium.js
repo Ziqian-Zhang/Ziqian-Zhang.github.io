@@ -27,7 +27,7 @@ let songs = [
 	
 	{
 		mp3:'SEVENTEEN-Rock-with-you.mp3',
-		name:'SEVENTEEN-Rock-with-you',
+		name:'Rock with you',
 		pic:'Rock-with-you-album.jpeg',
 	},
 	{
