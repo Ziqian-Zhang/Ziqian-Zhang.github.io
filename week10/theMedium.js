@@ -35,8 +35,20 @@ let songs = [
 		pic:'Rock-with-you-album.jpeg',
 	},
 	{
-        //////////////////// MORE SONGS
+        mp3:'EverySummertime.mp3',
+        name: 'Every Summertime - NIKI',
+        pic: 'EverySummertime.jpeg',
     },
+    {
+        mp3: 'HypeBoy.mp3',
+        name: 'Hype Boy - New Jeans',
+        pic: 'HypeBoy.jpeg',
+    },
+    {
+        mp3: 'CuffIt.mp3',
+        name: 'Cuff It - Beyonce',
+        pic: 'CuffIt.jpeg',
+    }
 ]
 
 // display song playlist
@@ -101,7 +113,7 @@ function timeFormat(time){
 	let minutes = parseInt(time/60);
 	let seconds = parseInt(time%60);
     if(minutes<10){minutes = "0"+minutes;}
-    if(seconds<10){seconds = "0"+seconds;}
+    if(seconds<10){seconds = "0"+seconds;}	
 	return minutes+':'+seconds;
 }
 // time display
