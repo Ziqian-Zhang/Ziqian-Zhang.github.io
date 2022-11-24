@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+}
+
+#box {
+	width: auto;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+#eye {
+	display: flex;
+	justify-content: center;
+}
+
+.text {
+	color: black;
+	font-size: 50px;
+	font-family: Copperplate;
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 20px;
+}
+
+#sec1 {
+	width: 50%;
+	height: 650px;
+	text-align: center;
+	background-color: rgb(210, 210, 210);
+	margin-top: 20px;
+}
+
+#sec2 {
+	width: 50%;
+	height: 650px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	margin-top: 20px;
+}
+
+.blink {
+	animation: blink 2s infinite;
+  }
+  
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
