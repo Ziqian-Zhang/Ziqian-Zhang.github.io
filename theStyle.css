@@ -17,6 +17,10 @@ h3 {
     gap: 0.625%;
 }
 
+p {
+    padding: 2vw;
+}
+
 a {
     flex: 1;
     text-decoration: none;
